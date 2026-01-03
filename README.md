@@ -1,5 +1,7 @@
 # Web3 Resources Archive
 
+Archive - https://web3resources.github.io/
+
 A curated, community-driven collection of Web3 security, education, and research materials. This project is a public resource hub designed for seekers of knowledge in the blockchain space.
 
 ### 🛡️ Purpose
