@@ -14,6 +14,16 @@ export const bookmarks = [
   { title: "Speed Run Ethereum", url: "https://speedrunethereum.com/", desc: "Learn Solidity through interactive challenges.", category: "Education" },
   { title: "Ethernaut Level 0 Walkthrough", url: "https://medium.com/hackernoon/ethernaut-lvl-0-walkthrough-abis-web3-and-how-to-abuse-them-d92a8842d71b", desc: "Guide for Ethernaut mechanics and ABIs.", category: "Education" },
   { title: "Building Secure Smart Contracts", url: "https://secure-contracts.com/", desc: "Comprehensive guide on smart contract security.", category: "Education" },
+  { title: "Audit Learning Short Roadmap", url: "https://rentry.co/wayofauditor", desc: "Roadmap for beginners covering documentation.", category: "Education" },
+  { title: "Learn Me A Bitcoin Explorer", url: "https://learnmeabitcoin.com/explorer/", desc: "Educational Bitcoin blockchain explorer.", category: "Education" },
+  { title: "The 0 to 1 Guide for MEV", url: "https://paragraph.com/@blockchainatberkeley/the-0-to-1-guide-for-mev", desc: "A quick and dirty guide to MEV by Blockchain at Berkeley.", category: "Education" },
+  { title: "Smart Contract Vulnerabilities", url: "https://github.com/kadenzipfel/smart-contract-vulnerabilities", desc: "Detailed repository of smart contract vulnerabilities.", category: "Education" },
+  { title: "Web3 Security Skills", url: "https://github.com/pashov/skills", desc: "Skills needed and resources for Web3 security auditing by Pashov.", category: "Education" },
+  { title: "Smart Contract Hacking Course", url: "https://youtube.com/playlist?list=PLw50A09Og0Vt1nW_Csdo5XjrtHpRiBKo0&si=NjiYyISngS78wAWU", desc: "Video playlist for learning smart contract hacking.", category: "Education" },
+  { title: "Web3 Security Talks & Content", url: "https://youtube.com/playlist?list=PLw50A09Og0VuKZSCqHPPiznIwdEERhDDd&si=eeRPH3TRGsktMask", desc: "Comprehensive video content covering Web3 security.", category: "Education" },
+  { title: "Web3 Bug Bounty Videos", url: "https://youtube.com/playlist?list=PLCwnLq3tOElrubfUWHa1qKrJv1apO8Aag&si=iYgo0HhqwmRjhpcn", desc: "Playlist focusing on Web3 bug bounty content and writeups.", category: "Education" },
+  { title: "DeFi Security Bootcamp", url: "https://youtube.com/playlist?list=PLKXasCp8iWphwMx-ZvXJc1VXK4HofzOLn&si=N6q723LfkP-pec0B", desc: "Bootcamp videos deep-diving into decentralized finance security.", category: "Education" },
+  { title: "Intro to Smart Contract Auditing", url: "https://youtu.be/Ug5Vm-B7DNg?si=z87_xi630khqLb4w", desc: "Introduction to smart contract auditing basics.", category: "Education" },
 
   // AUDIT
   { title: "Spearbit Portfolio", url: "https://github.com/spearbit/portfolio/tree/master/pdfs", desc: "Professional audit reports by Spearbit.", category: "Audit" },
@@ -27,6 +37,8 @@ export const bookmarks = [
   { title: "Auditors 2022 Rewind", url: "https://ventral.digital/posts/2022/12/15/ethereum-smart-contract-auditors-2022-rewind/", desc: "Retrospective on smart contract auditing in 2022.", category: "Audit" },
   { title: "Block Audit Report", url: "https://blockauditreport.medium.com/", desc: "Collection of audit reports and findings.", category: "Audit" },
   { title: "DeFi Fork Bugs", url: "https://github.com/yAudit/defi-fork-bugs", desc: "Common bugs found in DeFi forks.", category: "Audit" },
+  { title: "Ward Audits Portfolio", url: "https://github.com/WardAudits/portfolio?tab=readme-ov-file", desc: "Audits and findings by Ward Audits.", category: "Audit" },
+  { title: "Pashov Audits", url: "https://github.com/pashov/audits", desc: "Collection of smart contract audits performed by Pashov.", category: "Audit" },
 
   // NEWS/ANALYSIS
   { title: "SlowMist Hacked", url: "https://hacked.slowmist.io/", desc: "Real-time tracking of crypto hacks.", category: "News/Analysis" },
@@ -52,6 +64,9 @@ export const bookmarks = [
   { title: "SunSec Blog", url: "https://web3sec.notion.site/I-m-SunSec-ddaa8bf9a985494dbaf70d698345b899", desc: "Security notes and research by SunSec.", category: "Research" },
   { title: "Advanced Security Research", url: "https://tropical-comb-1dc.notion.site/b7df825e3f0f4278bb297b1eda576494?v=01376a29af164585a380840b02bb9dd3", desc: "Vulnerability research and deep dives.", category: "Research" },
   { title: "SlowMist Blog", url: "https://slowmist.medium.com/", desc: "Security insights and reports from SlowMist.", category: "Research" },
+  { title: "Solidity Security: Known Attack Vectors", url: "https://blog.sigmaprime.io/solidity-security.html", desc: "Comprehensive list of known attack vectors and common anti-patterns.", category: "Research" },
+  { title: "Weilin (William) Li's Blog", url: "https://weilinli.io/", desc: "Security researcher blog, publications, and bug bounties.", category: "Research" },
+  { title: "AI in Web3 Security", url: "https://github.com/pashov/ai-web3-security", desc: "Resources on applying AI in Web3 security by Pashov.", category: "Research" },
 
   // LABS
   { title: "Damn Vulnerable DeFi", url: "https://www.damnvulnerabledefi.xyz/", desc: "The ultimate CTF for hacking DeFi.", category: "Labs" },
@@ -61,6 +76,6 @@ export const bookmarks = [
   { title: "DeFi Hack Labs", url: "https://github.com/SunWeb3Sec/DeFiHackLabs", desc: "Reproduced POCs for real-world hacks.", category: "Labs" },
   { title: "Salmonella", url: "https://github.com/Defi-Cartel/salmonella", desc: "PoC for sandwich trading exploits.", category: "Labs" },
   { title: "DeFi Labs", url: "https://github.com/SunWeb3Sec/DeFiLabs", desc: "Collection of DeFi security labs and experiments.", category: "Labs" },
-  { title: "BlockSec CTFs", url: "https://github.com/blockthreat/blocksec-ctfs", desc: "Archive of blockchain security CTFs.", category: "Labs" }
+  { title: "BlockSec CTFs", url: "https://github.com/blockthreat/blocksec-ctfs", desc: "Archive of blockchain security CTFs.", category: "Labs" },
+  { title: "Some MEV Bots", url: "https://rentry.co/somemevbots", desc: "Collection of MEV bots and related resources.", category: "Labs" }
 ];
-
